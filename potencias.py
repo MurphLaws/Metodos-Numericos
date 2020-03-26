@@ -1,20 +1,6 @@
 import numpy as np
 np.set_printoptions(suppress=True)
 
-Amatrix = ([[6, 5, -5],
-            [2, 6, -2],
-            [2, 5, -1]])
-
-Bmatrix = ([[4, -1, 1],
-            [-1, 3, -2],
-            [1, -2, 3]])
-
-Cmatrix = ([[0, 1],
-            [1, 1]])
-
-ymatrix = ([1, 1])
-xmatrix = ([1, 2, 3])
-
 
 
 def normaInfinito(v):
@@ -71,7 +57,9 @@ def metodoPotencias(A, x, M,):
 
 
 
-metodoPotencias(Amatrix, xmatrix, 200)
+metodoPotencias([[6, 5, -5],
+                 [2, 6, -2],
+                 [2, 5, -1]], [-1, 1, 1], 28)
 
 
 
