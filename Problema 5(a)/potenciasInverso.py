@@ -61,8 +61,6 @@ def metodoPotenciasInverso(A, x, M,):
         r = x[0]/r0
         x = normalizarVector(x)
 
-
-
 metodoPotenciasInverso([[6, 5, -5],
                         [2, 6, -2],
                         [2, 5, -1]], [3, 7, -13], 12)
