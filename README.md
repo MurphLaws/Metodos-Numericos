@@ -4,8 +4,7 @@ Los siguientes archivos son implementaciones del **Método de la Potencia** y **
 
 ## Requisitos
 
-Para la ejecucion de cada programa es necesario contar con **Python 3.7.3**; con la libreria 
-**Numpy**, que agrega mayor soporte para trabajar con vectores y matrices, y con la libreria **Scipy**, que permite utilizar funciones para determinar la factorizacion LU o la inversa de una determinada matriz.
+Para la ejecucion de cada programa es necesario contar con **Python 3.7.3**; con la libreria **Numpy**, que agrega mayor soporte para trabajar con vectores y matrices, y con la libreria **Scipy**, que permite utilizar funciones para determinar la factorizacion LU o la inversa de una determinada matriz.
 
 ### 1. Metodo de La Potencia
 
