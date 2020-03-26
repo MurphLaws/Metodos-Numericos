@@ -9,14 +9,14 @@ Para la ejecucion de cada programa es necesario contar con **Python 3.7.3**; con
 
 ### 1. Metodo de La Potencia
 
-Para ejecutar el archivo _potencias.py_, que corresponde a la implementacion del Computer Problem 4(a). Este archivo utiliza las distintas funciones sugeridas en el problema, para hallar el valor propio dominante y el vector propio asociado a ese valor para la matriz A y el el vector incial x:
+Para ejecutar el archivo _potencias.py_, que corresponde a la implementacion del Computer Problem 5.1.4(a). Este archivo utiliza las distintas funciones sugeridas en el problema, para hallar el valor propio dominante y el vector propio asociado a ese valor para la matriz A y el el vector incial x:
 
 ``` 
     | 6 5 -5 |      | -1 |
 A = | 2 6 -2 |, x = |  1 |
     | 2 5 -1 |      |  1 |
 ```
-Los metodos utilizados son
+Los metodos utilizados son:
 
 <br />
 <br />
@@ -96,31 +96,50 @@ def metodoPotencias(A, x, M,):
         print("r =", r)
 
 ```
-Para recrear los resultados obtenidos en Ejemplo 1, es necesaio invocar este metodo seleccionando A, x y M de la siguiente manera:
+Para recrear los resultados obtenidos en Ejemplo 1, es necesario invocar este metodo seleccionando A, x y M de la siguiente manera:
 
 ```
-    | 6 5 -5 |      | -1 |
-A = | 2 6 -2 |, x = |  1 |, M=28
-    | 2 5 -1 |      |  1 |
+    [[6, 5, -5],     
+A =  [2, 6, -2],  x = [-1, 1 ,1], M=29
+     [2, 5, -1]]    
     
+                        
+                        
 ```
 
 ### 2. Metodo de La Potencia Inversa
 
-A step by step series of examples that tell you how to get a development env running
+Para ejecutar el archivo _potenciasInversas.py_, que corresponde a la implementacion del Computer Problem 5.1.5(a). Este archivo utiliza las mismos metodos usados en el problema anterior, la diferencia es que con este metodo se busca hallar el menor valor propio  y el vector propio asociado a ese valor para una matriz A con un vector inicial x. Ademas, este metodo descompone utiliza la factorizacion LU de la matriz en su funcion principal:
 
-Say what the step will be
+
+```python
+def metodoPotenciasInverso(A, x, M,):
+    y = []
+    r:  float
+    r0: float
+    i: int
+    (P, L, U) = sla.lu(A)
+    UInversa = sla.inv(U)
+    LInversa = sla.inv(L)
+    for i in range(0, M):
+        print(i, ":")
+        print("x =", np.around(x, 5))
+        r0 = x[0]
+        x = productoMatrizVector(UInversa, productoMatrizVector(LInversa, x))
+        r = x[0]/r0
+        x = normalizarVector(x)
+        print("r =", r)
 
 ```
-Give the example
-```
 
-And repeat
+Para recrear los resultados obtenidos en Ejemplo 2, es necesario invocar este metodo seleccionando A, x y M de la siguiente manera:
 
 ```
-until finished
+    [[6, 5, -5],     
+A =  [2, 6, -2],  x = [-3, 7 ,13], M=12
+     [2, 5, -1]]   
+    
 ```
-
 End with an example of getting some data out of the system or using it for a little demo
 
 
