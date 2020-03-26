@@ -45,25 +45,27 @@ def productoMatrizVector(m, v):
 
 def metodoPotenciasInverso(A, x, M,):
     y = []
-    r:  float
+    r =  0
     r0: float
     i: int
     (P, L, U) = sla.lu(A)
     UInversa = sla.inv(U)
     LInversa = sla.inv(L)
     for i in range(0, M):
+
         print(i, ":")
+        print("r =", r)
         print("x =", np.around(x, 5))
         r0 = x[0]
         x = productoMatrizVector(UInversa, productoMatrizVector(LInversa, x))
         r = x[0]/r0
         x = normalizarVector(x)
-        print("r =", r)
+
 
 
 metodoPotenciasInverso([[6, 5, -5],
                         [2, 6, -2],
-                        [2, 5, -1]], [3, 7, -13], 11)
+                        [2, 5, -1]], [3, 7, -13], 12)
 
 
 

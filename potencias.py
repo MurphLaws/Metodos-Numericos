@@ -41,25 +41,25 @@ def productoMatrizVector(m, v):
 
 def metodoPotencias(A, x, M,):
     y = []
-    r:  float
+    r = 0
     r0: float
     i: int
     for i in range(0, M):
         print(i, ":")
-        print("y =", y)
+        print("r =", r)
         print("x =", x)
         r0 = maxNoZero(x)
         y = productoMatrizVector(A, x)
         x = y
         r = maxNoZero(x)/r0
         x = normalizarVector(y)
-        print("r =", r)
+
 
 
 
 metodoPotencias([[6, 5, -5],
                  [2, 6, -2],
-                 [2, 5, -1]], [-1, 1, 1], 28)
+                 [2, 5, -1]], [-1, 1, 1], 29)
 
 
 
