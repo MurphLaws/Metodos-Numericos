@@ -47,14 +47,12 @@ def metodoPotencias(A, x, M,):
     for i in range(0, M):
         print(i, ":")
         print("r =", r)
-        print("x =", x)
+        print("x =", np.around(x, 5))
         r0 = maxNoZero(x)
         y = productoMatrizVector(A, x)
         x = y
         r = maxNoZero(x)/r0
         x = normalizarVector(y)
-
-
 
 
 metodoPotencias([[6, 5, -5],

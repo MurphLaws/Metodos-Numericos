@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7f4db9b-dee1-45f7-b00a-04876b96f58c" name="Default Changelist" comment="" />
+    <list default="true" id="b7f4db9b-dee1-45f7-b00a-04876b96f58c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problema 4(a)/potencias.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problema 5(a)/5(a).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problema 5(a)/potenciasInverso.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +23,75 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.potenciasEjemplo">
+    <configuration name="potencias (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Metodos-Numericos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problema4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problema4/potencias.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="potencias" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../PycharmProjects/Metodos/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problema 4(a)" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problema 4(a)/potencias.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="potenciasEjemplo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../PycharmProjects/Metodos/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problema 1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problema 1/potenciasEjemplo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="potenciasInverso" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,6 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.potenciasEjemplo" />
+        <item itemvalue="Python.potencias (1)" />
+        <item itemvalue="Python.potencias" />
         <item itemvalue="Python.potenciasInverso" />
       </list>
     </recent_temporary>
@@ -64,37 +136,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="688" y="143" key="#potencias" timestamp="1585249507319">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="688" y="143" key="#potencias/0.0.1920.1080@0.0.1920.1080" timestamp="1585249507319" />
+    <state x="688" y="143" key="#potenciasEjemplo" timestamp="1585249660051">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="688" y="143" key="#potenciasEjemplo/0.0.1920.1080@0.0.1920.1080" timestamp="1585249660051" />
     <state x="688" y="143" key="#potenciasInverso" timestamp="1585249043452">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="688" y="143" key="#potenciasInverso/0.0.1920.1080@0.0.1920.1080" timestamp="1585249043452" />
-    <state width="1899" height="249" key="GridCell.Tab.0.bottom" timestamp="1585249043557">
+    <state width="1899" height="234" key="GridCell.Tab.0.bottom" timestamp="1585250507521">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585249043557" />
-    <state width="1899" height="249" key="GridCell.Tab.0.center" timestamp="1585249043556">
+    <state width="1899" height="234" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585250507521" />
+    <state width="1899" height="234" key="GridCell.Tab.0.center" timestamp="1585250507520">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="249" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585249043556" />
-    <state width="1899" height="249" key="GridCell.Tab.0.left" timestamp="1585249043555">
+    <state width="1899" height="234" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585250507520" />
+    <state width="1899" height="234" key="GridCell.Tab.0.left" timestamp="1585250507520">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="249" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585249043555" />
-    <state width="1899" height="249" key="GridCell.Tab.0.right" timestamp="1585249043556">
+    <state width="1899" height="234" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585250507520" />
+    <state width="1899" height="234" key="GridCell.Tab.0.right" timestamp="1585250507521">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="249" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585249043556" />
-    <state x="469" y="179" key="SettingsEditor" timestamp="1585246790136">
+    <state width="1899" height="234" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585250507521" />
+    <state x="469" y="179" key="SettingsEditor" timestamp="1585250221878">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585246790136" />
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1585246742877">
+    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1585250221878" />
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1585250195007">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585246742877" />
-    <state x="569" y="265" width="782" height="550" key="find.popup" timestamp="1585247442794">
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1585250195007" />
+    <state x="569" y="265" width="782" height="550" key="find.popup" timestamp="1585249503916">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="569" y="265" width="782" height="550" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1585247442794" />
+    <state x="569" y="265" width="782" height="550" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1585249503916" />
   </component>
 </project>
