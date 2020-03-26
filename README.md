@@ -140,7 +140,7 @@ A =  [2, 6, -2],  x = [-3, 7 ,13], M=12
      [2, 5, -1]]   
     
 ```
-End with an example of getting some data out of the system or using it for a little demo
+
 
 
 ## Authors
