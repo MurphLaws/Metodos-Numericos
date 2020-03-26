@@ -6,9 +6,23 @@ Los siguientes archivos son implementaciones del **Método de la Potencia** y **
 
 Para la ejecucion de cada programa es necesario contar con **Python 3.7.3**; con la libreria **Numpy**, que agrega mayor soporte para trabajar con vectores y matrices, y con la libreria **Scipy**, que permite utilizar funciones para determinar la factorizacion LU o la inversa de una determinada matriz.
 
-### 1. Metodo de La Potencia
 
-Para ejecutar el archivo _potencias.py_, que corresponde a la implementacion del Computer Problem 5.1.4(a). Este archivo utiliza las distintas funciones sugeridas en el problema, para hallar el valor propio dominante y el vector propio asociado a ese valor para la matriz A y el el vector incial x:
+### 1. Ejemplo 1
+
+Se crea el archivo _potenciasEjemplo.py_, que corresponde a la implementacion del Computer Problem 1. Para este problema es necesario implementar el algoritmo del metodo de las potencias con el fin de observar el comportamiento de una matriz. Recordemos que este metodo se usa para determinar el valor propio dominante de una matriz, junto con su respectivo vector propio. Ahora, tenemos una matriz A y un vector inicial x tal que:
+
+``` 
+    | 6 5 -5 |      |  1 |
+A = | 2 6 -2 |, x = |  2 |
+    | 2 5 -1 |      |  3 |
+```
+El ejercicio pide que se ejecute el algoritmo con 100 iteraciones. Al hacerlo, se observa que alrededor de la iteracion numero 60 tanto el valor propio como el vector propio demuestran un aparente convergencia. Esto se aprecia en la siguiente imagen:
+
+![1.1](https://github.com/MurphLaws/metodo-de-la-potencias/blob/master/Problema1/1.1.png)
+
+### 4. Metodo de La Potencia
+
+Se crea el archivo _potencias.py_, que corresponde a la implementacion del Computer Problem 5.1.4(a). Este archivo utiliza las distintas funciones sugeridas en el problema, para hallar el valor propio dominante y el vector propio asociado a ese valor para la matriz A y el el vector incial x:
 
 ``` 
     | 6 5 -5 |      | -1 |
@@ -112,9 +126,9 @@ A =  [2, 6, -2],  x = [-1, 1 ,1], M=29
 La ejecucion resultante se puede ver en la siguiente imagen:
 ![4](https://github.com/MurphLaws/metodo-de-la-potencias/blob/master/Problema4/4.png)
 
-### 2. Metodo de La Potencia Inverso
+### 5. Metodo de La Potencia Inverso
 
-Para ejecutar el archivo _potenciasInversas.py_, que corresponde a la implementacion del Computer Problem 5.1.5(a). Este archivo utiliza las mismos metodos usados en el problema anterior, la diferencia es que con este metodo se busca hallar el menor valor propio  y el vector propio asociado a ese valor para una matriz A con un vector inicial x. Ademas, este metodo utiliza la factorizacion LU de la matriz en su funcion principal:
+Se crea el archivo _potenciasInversas.py_, que corresponde a la implementacion del Computer Problem 5.1.5(a). Este archivo utiliza las mismos metodos usados en el problema anterior, la diferencia es que con este metodo se busca hallar el menor valor propio  y el vector propio asociado a ese valor para una matriz A con un vector inicial x. Ademas, este metodo utiliza la factorizacion LU de la matriz en su funcion principal:
 
 
 ```python
