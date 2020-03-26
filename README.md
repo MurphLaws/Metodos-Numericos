@@ -17,19 +17,21 @@ A = | 2 6 -2 |, x = |  1 |
 ```
 Los metodos utilizados son:
 
-<br />
-<br />
+
+
+
 
 **maxNoZero(v**) para retornar el mayor valor de un arreglo distinto de cero. Se usa para determinar la funcion phi utilizada en el metodo.  
 ```python
 def maxNoZero(v):
     return max([x for x in v if x !=0])
 ```
-<br />
-<br />
+
+
 
 
 **normaInfinito(v)** para determinar la norma infinito de un vector, es decir el valor absoluto del mayor elemento del arreglo.
+
 ```python
 def normaInfinito(v):
     maxv: float
@@ -40,8 +42,9 @@ def normaInfinito(v):
     return maxv
 ```
 
-<br />
-<br />
+
+
+
 
 
 **normalizarVector(v)** para dividir todos los elementos de un arreglo por la norma infinito de este.
@@ -53,11 +56,10 @@ def normalizarVector(v):
     return w
 ```
 
-<br />
-<br />
 
 
 **productoMatrizVector(m, v)** para multiplicar una matriz por un vector.
+
 ```python
 def productoMatrizVector(m, v):
     rows = len(m)
@@ -71,8 +73,9 @@ def productoMatrizVector(m, v):
 
     return w
 ```
-<br />
-<br />
+
+
+
 
 
 Y por ultimo, **metodoPotencias(A, x, M,)**, que utiliza todos los metodos vistos anteriormente y que recibe: una matriz A, a la que se le calculara su valor propio dominante y el vector asociado a este; un vector inicial x y un numero de iteraciones M.
