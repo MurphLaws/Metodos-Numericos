@@ -107,7 +107,7 @@ A =  [2, 6, -2],  x = [-1, 1 ,1], M=29
                         
 ```
 
-### 2. Metodo de La Potencia Inversa
+### 2. Metodo de La Potencia Inverso
 
 Para ejecutar el archivo _potenciasInversas.py_, que corresponde a la implementacion del Computer Problem 5.1.5(a). Este archivo utiliza las mismos metodos usados en el problema anterior, la diferencia es que con este metodo se busca hallar el menor valor propio  y el vector propio asociado a ese valor para una matriz A con un vector inicial x. Ademas, este metodo descompone utiliza la factorizacion LU de la matriz en su funcion principal:
 
@@ -143,7 +143,7 @@ A =  [2, 6, -2],  x = [-3, 7 ,13], M=12
 
 
 
-## Authors
+## Autor
 
 **Nicolas Lasso** - [MurphLaws](https://github.com/MurphLaws)
 
