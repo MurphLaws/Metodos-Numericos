@@ -3,12 +3,6 @@ import scipy.linalg as sla
 
 
 
-Am = ([[6, 5, -5],
-               [2, 6, -2],
-               [2, 5, -1]])
-
-xm = ([3, 7, -13])
-
 
 def normaInfinito(v):
     maxv: float
@@ -67,7 +61,9 @@ def metodoPotenciasInverso(A, x, M,):
         print("r =", r)
 
 
-metodoPotenciasInverso(Am, xm, 12)
+metodoPotenciasInverso([[6, 5, -5],
+                        [2, 6, -2],
+                        [2, 5, -1]], [3, 7, -13], 11)
 
 
 
