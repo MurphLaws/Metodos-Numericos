@@ -138,7 +138,7 @@ La ejecucion resultante se puede ver en la siguiente imagen:
 
 ### 5. Metodo de La Potencia Inverso
 
-Se crea el archivo _potenciasInversas.py_, que corresponde a la implementacion del Computer Problem 5.1.5(a). Este archivo utiliza las mismos metodos usados en el problema anterior, la diferencia es que con este metodo se busca hallar el menor valor propio  y el vector propio asociado a ese valor para una matriz A con un vector inicial x. Ademas, este metodo utiliza la factorizacion LU de la matriz en su funcion principal:
+Se crea el archivo _potenciasInversas.py_, que corresponde a la implementacion del Computer Problem 5.1.5(a). Este archivo utiliza las mismos metodos usados en el problema anterior, la diferencia es que con este metodo se busca hallar el menor valor propio  y el vector propio asociado a ese valor para una matriz A con un vector inicial x. Ademas, este metodo utiliza la factorizacion LU de la matriz en su funcion principal (no es necesario introducir las matrices L y U en el algoritmo pues este las calcula internamente):
 
 
 ```python
