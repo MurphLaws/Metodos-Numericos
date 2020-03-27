@@ -12,9 +12,9 @@ Para la ejecucion de cada programa es necesario contar con **Python 3.7.3**; con
 Se crea el archivo _potenciasEjemplo.py_, que corresponde a la implementacion del Computer Problem 1. Para este problema es necesario implementar el algoritmo del metodo de las potencias con el fin de observar el comportamiento de una matriz. Recordemos que este metodo se usa para determinar el valor propio dominante de una matriz, junto con su respectivo vector propio. Ahora, tenemos una matriz A y un vector inicial x tal que:
 
 ``` 
-    | 6 5 -5 |      |  1 |
-A = | 2 6 -2 |, x = |  2 |
-    | 2 5 -1 |      |  3 |
+    [ 6 5 -5 ]      [  1 ]
+A = [ 2 6 -2 ], x = [  2 ]
+    [ 2 5 -1 ]      [  3 ]
 ```
 El ejercicio pide que se ejecute el algoritmo con 100 iteraciones. Al hacerlo, se observa que alrededor de la iteracion numero 25 tanto el valor propio como el vector propio demuestran un aparente convergencia. Esto se aprecia en la siguiente imagen:
 
@@ -35,9 +35,9 @@ La explicacion de comportamiento se amplia en el pdf adjunto al archivo.
 Se crea el archivo _potencias.py_, que corresponde a la implementacion del Computer Problem 5.1.4(a). Este archivo utiliza las distintas funciones sugeridas en el problema, para hallar el valor propio dominante y el vector propio asociado a ese valor para la matriz A y el el vector incial x:
 
 ``` 
-    | 6 5 -5 |      | -1 |
-A = | 2 6 -2 |, x = |  1 |
-    | 2 5 -1 |      |  1 |
+    [ 6 5 -5 ]      [ -1 ]
+A = [ 2 6 -2 ], x = [  1 ]
+    [ 2 5 -1 ]      [  1 ]
 ```
 Los metodos utilizados son:
 
