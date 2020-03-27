@@ -1,6 +1,6 @@
-# Metodo de las potencias
+# Computer Problems
 
-Los siguientes archivos son implementaciones del **Método de la Potencia** y **Método de la potencia inversa** en Python.
+Los siguientes archivos son implementaciones del los Computer Problems, presentes en la seccion 5.1 del libro guia, en Python.
 
 ## Requisitos
 
