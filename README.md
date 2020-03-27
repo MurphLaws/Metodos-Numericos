@@ -16,9 +16,19 @@ Se crea el archivo _potenciasEjemplo.py_, que corresponde a la implementacion de
 A = | 2 6 -2 |, x = |  2 |
     | 2 5 -1 |      |  3 |
 ```
-El ejercicio pide que se ejecute el algoritmo con 100 iteraciones. Al hacerlo, se observa que alrededor de la iteracion numero 60 tanto el valor propio como el vector propio demuestran un aparente convergencia. Esto se aprecia en la siguiente imagen:
+El ejercicio pide que se ejecute el algoritmo con 100 iteraciones. Al hacerlo, se observa que alrededor de la iteracion numero 25 tanto el valor propio como el vector propio demuestran un aparente convergencia. Esto se aprecia en la siguiente imagen:
 
 ![1.1](https://github.com/MurphLaws/metodo-de-la-potencias/blob/master/Problema1/1.1.png)
+
+Leugo, al observar las iteraciones finales del algoritmo, tanto el valor propio domiante como el vector incian una convergencia hacia valores distintos a los anteriores:
+
+![1.2](https://github.com/MurphLaws/metodo-de-la-potencias/blob/master/Problema1/1.2.png)
+
+Por ultimo, se corre el programa pero con 200 iteraciones, comprobando asi que el valor final que toman el valor y vector propios de la matriz:
+
+![1.3](https://github.com/MurphLaws/metodo-de-la-potencias/blob/master/Problema1/1.3.png)
+
+La explicacion de comportamiento se amplia en el pdf adjunto al archivo.
 
 ### 4. Metodo de La Potencia
 
