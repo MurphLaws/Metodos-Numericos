@@ -24,7 +24,7 @@ Leugo, al observar las iteraciones finales del algoritmo, tanto el valor propio 
 
 ![1.2](https://github.com/MurphLaws/metodo-de-la-potencias/blob/master/Problema1/1.2.png)
 
-Por ultimo, se corre el programa pero con 200 iteraciones, comprobando asi que el valor final que toman el valor y vector propios de la matriz:
+Por ultimo, se corre el programa pero con 200 iteraciones, comprobando asi cuales son los valores finales que toman el valor y vector propios de la matriz:
 
 ![1.3](https://github.com/MurphLaws/metodo-de-la-potencias/blob/master/Problema1/1.3.png)
 
